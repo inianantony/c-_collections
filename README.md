@@ -8,5 +8,5 @@ repo to explain the concepts of C# collections
 - Thats why looking up in array by index is O(1) operation
 - So from the 1st element, get the ints size
 - 4 * size of int, and then it knows exactly where to go and fetch in memory
-  - Like this
-  - And this
+   1. Like this
+   2. And this
