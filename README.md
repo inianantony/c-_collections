@@ -17,7 +17,7 @@ repo to explain the concepts of C# collections
 - dynamically creates a array with some fixed size 
 - and if we need to add more data than the existing size, then it creates a new array in some memory localtion and copies over the entire array and adds the new element there.
 - If you remove the item from list, then the list moves the remaining elements to fill up the space as the elements has to run sequential, and thus removing is O(n)
--  If you are removing the top element in a loop, then the operation is O(N square) ** avoid it any cost **
+-  If you are removing the top element in a loop, then the operation is O(N square) **avoid it any cost**
 
 
 
