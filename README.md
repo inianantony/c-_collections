@@ -8,3 +8,8 @@ repo to explain the concepts of C# collections
 3. Thats why looking up in array by index is O(1) operation
  - So from the 1st element, get the ints size
  - 4 * size of int, and then it knows exactly where to go and fetch in memory
+ 
+ - Dashes work just as well
+- And if you have sub points, put two spaces before the dash or star:
+  - Like this
+  - And this
