@@ -22,6 +22,15 @@ repo to explain the concepts of C# collections
 ### Linked List
 
 ![alt text](https://github.com/inianantony/c_sharp_collections/blob/master/linkedlist.png)
+1. So to remove an item, say example Barbados, then change the 1st node's next to 3rd and change the 3rd nodes prev to 1st and remove all the linkages of the 2nd node, thus it will be garbage collected.
+2. Apply the vice versa principle to add
+3. So we can conclude that Add and Remove in linked list is O(1) operation.
+4. However to look up an element in linked list it needs to iterate the whole list and this its a O(n) operation
+
+### Takeaway
+1. List and Array is optimized for reading data on the exact index O(1)
+2. Linked list is optimized for adding and removing O(1)
+3. Enumating LinkedList, List, Array are O(n) operations
 
 
 
