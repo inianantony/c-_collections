@@ -19,5 +19,9 @@ repo to explain the concepts of C# collections
 - If you remove the item from list, then the list moves the remaining elements to fill up the space as the elements has to run sequential, and thus removing is O(n)
 -  If you are removing the top element in a loop, then the operation is O(N square) **avoid it any cost**
 
+### Linked List
+
+
+
 
 
