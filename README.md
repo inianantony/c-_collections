@@ -21,7 +21,7 @@ repo to explain the concepts of C# collections
 
 ### Linked List
 
-![alt text](https://github.com/inianantony/morepizza/blob/master/pizza.png)
+![alt text](https://github.com/inianantony/c_sharp_collections/blob/master/linkedlist.png)
 
 
 
