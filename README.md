@@ -32,5 +32,25 @@ repo to explain the concepts of C# collections
 2. Linked list is optimized for adding and removing O(1)
 3. Enumating LinkedList, List, Array are O(n) operations
 
+### Sets
+
+1. Another datastructure offered from microsoft
+2. HashSet, SortedSet
+3. Its an unordered bag of objects
+4. Incontract with dictionary which lookup data by key , HashSet enumerate by value
+5. When adding diplicate key in dictionary throws error, but in HashSet it silently ignores the duplicated data
+6. Sets offer set operations like UnionWith, IntersectWith, ExceptWith
+
+
+### ReadOnly vs Immutable
+
+1. ReadlyOnly is just a wrapper on top of the underlying collection and comes from System.Collections.ObjectModel 
+```C#
+var list = new List<int>();
+var readOnlyList = new ReadOnlyCollection<int>(list);
+list.Add(1); // This line still chages the readonly collections data
+```
+2. Immutable holds the data inside and its completely immutable and its comes from System.Collections.Immutable
+
 
 
