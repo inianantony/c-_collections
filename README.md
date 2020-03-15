@@ -59,6 +59,13 @@ IEnumerable<string> query = names.where((name,index)=> index%2 ==0);
 //=> tom, harry, jay
 ```
 
+### TakeWhile SkipWhile vs Where filtering
+```C#
+int[] nums = {3,5,2,234,41,1};
+var result = nums.TakeWhile(a=>a < 100); //=> 3,5,2 , filtering ends when the condition becomes false, but where filters every element
+var result = nums.SkipWhile(a=>a < 100); //=> 234,41,1 , filtering ends when the condition becomes false, but where filters every element
+```
+
 
 
 
