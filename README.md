@@ -52,10 +52,11 @@ list.Add(1); // This line still chages the readonly collections data
 ```
 2. Immutable holds the data inside and its completely immutable and its comes from System.Collections.Immutable
 
-### Indexed Filtering
+### Indexed Filtering & Indexed Projecting
 ```C#
 string[] names = {"tom","hawk","harry","mary","jay"};
-IEnumerable<string> query = names.where((name,index)=> index%2 ==0);
+IEnumerable<string> query = names.Where((name,index)=> index%2 ==0);
+IEnumerable<string> query = names.Select((name,index)=> $"{index}={name}");
 //=> tom, harry, jay
 ```
 
